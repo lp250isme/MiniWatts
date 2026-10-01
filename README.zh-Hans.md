@@ -1,8 +1,10 @@
 # MiniWatts
 
-[English](README.md) · **简体中文**
+[English](README.md) · **简体中文** · [正體中文](README.zh-Hant.md)
 
-[![Build](https://github.com/ResistanceTo/MiniWatts/actions/workflows/build.yml/badge.svg)](https://github.com/ResistanceTo/MiniWatts/actions/workflows/build.yml)
+[![Build](https://github.com/lp250isme/MiniWatts/actions/workflows/build.yml/badge.svg)](https://github.com/lp250isme/MiniWatts/actions/workflows/build.yml)
+
+> 这是 [ResistanceTo/MiniWatts](https://github.com/ResistanceTo/MiniWatts) 的正体中文分支（界面为正体中文）。授权 Apache 2.0，上游著作权仍属 ZhaoHe Studio，见 [NOTICE](NOTICE)。这里的 Release 安装包同时包含简体与正体字串。
 
 一个用 Apple 私有 API 做的 iPhone 电池与充电信息 app。它读取手机自己的电源管理传感器——也就是 iOS 用来控制充电的那一套——显示充电器正在输出多少、其中有多少真正进到电芯、剩下的以多少热量散掉，以及这期间手机里每一个温度传感器的读数。
 
@@ -14,7 +16,7 @@
 
 ## 安装
 
-从 [Releases](https://github.com/ResistanceTo/MiniWatts/releases) 下载最新的
+从 [Releases](https://github.com/lp250isme/MiniWatts/releases) 下载最新的
 `MiniWatts-unsigned.ipa`，用你自己的 Apple ID 签名安装——[Sideloadly](https://sideloadly.io)、
 [AltStore](https://altstore.io)、[SideStore](https://sidestore.io) 和 Xcode 都可以。
 免费 Apple ID 可用，但应用 7 天后过期，需要重新签名。
@@ -24,7 +26,7 @@
 也可以在 SideStore 或 AltStore（包括 LiveContainer 自带的 SideStore）里添加这个源，从源里安装，之后新版本会作为更新出现：
 
 ```
-https://github.com/ResistanceTo/MiniWatts/releases/latest/download/apps.json
+https://github.com/lp250isme/MiniWatts/releases/latest/download/apps.json
 ```
 
 LiveContainer 无法运行 App 扩展，所以装在 LiveContainer 里的 MiniWatts 没有小组件，也没有实时活动。

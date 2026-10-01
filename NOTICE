@@ -1,6 +1,13 @@
 MiniWatts
 Copyright 2026 ZhaoHe Studio
 
+Traditional Chinese (正體中文, zh-Hant) localization fork
+https://github.com/lp250isme/MiniWatts
+
+This copy adds a zh-Hant localization. It is a derivative of
+https://github.com/ResistanceTo/MiniWatts — the copyright notice above and the
+third-party notices below are unchanged.
+
 This product includes software developed as part of the following projects.
 
 

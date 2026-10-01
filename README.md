@@ -1,8 +1,13 @@
 # MiniWatts
 
-**English** · [简体中文](README.zh-Hans.md)
+**English** · [简体中文](README.zh-Hans.md) · [正體中文](README.zh-Hant.md)
 
-[![Build](https://github.com/ResistanceTo/MiniWatts/actions/workflows/build.yml/badge.svg)](https://github.com/ResistanceTo/MiniWatts/actions/workflows/build.yml)
+[![Build](https://github.com/lp250isme/MiniWatts/actions/workflows/build.yml/badge.svg)](https://github.com/lp250isme/MiniWatts/actions/workflows/build.yml)
+
+> Traditional Chinese (正體中文, zh-Hant) fork of
+> [ResistanceTo/MiniWatts](https://github.com/ResistanceTo/MiniWatts), under Apache 2.0.
+> The interface, widget and Live Activity are in 正體中文. Upstream copyright remains
+> with ZhaoHe Studio; see [NOTICE](NOTICE).
 
 An iPhone battery and charging monitor built on Apple's private APIs. It reads the
 phone's own power-management sensors — the ones iOS uses to run the charge — and shows
@@ -20,7 +25,7 @@ heat, and what every temperature sensor in the phone is doing while it happens.
 ## Install
 
 Download the latest `MiniWatts-unsigned.ipa` from
-[Releases](https://github.com/ResistanceTo/MiniWatts/releases) and sign it with your own
+[Releases](https://github.com/lp250isme/MiniWatts/releases) and sign it with your own
 Apple ID — [Sideloadly](https://sideloadly.io), [AltStore](https://altstore.io),
 [SideStore](https://sidestore.io) and Xcode all do this. A free Apple ID works; the app
 then expires after seven days and you re-sign it.
@@ -31,7 +36,7 @@ Or add the source to SideStore or AltStore — including the SideStore bundled w
 LiveContainer — and install from there, so new versions show up as updates:
 
 ```
-https://github.com/ResistanceTo/MiniWatts/releases/latest/download/apps.json
+https://github.com/lp250isme/MiniWatts/releases/latest/download/apps.json
 ```
 
 LiveContainer cannot run app extensions, so installed inside it MiniWatts has no widget

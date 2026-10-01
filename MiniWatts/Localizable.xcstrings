@@ -11,6 +11,12 @@
             "state" : "translated",
             "value" : "比该充电器的最好记录高 %@。充电器相同，所以这个差值来自线缆和插头，不是适配器。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "比該充電器的最佳紀錄高 %@。充電器相同，所以這個差值來自線材和插頭，不是轉接器。"
+          }
         }
       }
     },
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "端口实测 %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連接埠實測 %@"
           }
         }
       }
@@ -31,6 +43,12 @@
             "state" : "translated",
             "value" : "%lld 次充电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 次充電"
+          }
         }
       }
     },
@@ -40,6 +58,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "按当前取电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按目前取電"
           }
         }
       }
@@ -51,6 +75,12 @@
             "state" : "translated",
             "value" : "线缆与连接"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線材與連線"
+          }
         }
       }
     },
@@ -60,6 +90,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "线缆对比"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "線材對比"
           }
         }
       }
@@ -71,6 +107,12 @@
             "state" : "translated",
             "value" : "两种算法给出的都是整条通路——充电器自身的稳压、线缆和两端插头——而不是线缆本身，所以它最适合用来在同一个充电器上横向比较不同的线。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "兩種演算法給出的都是整條通路——充電器自身的穩壓、線材和兩端插頭——而不是線材本身，所以它最適合用來在同一個充電器上橫向比較不同的線。"
+          }
         }
       }
     },
@@ -80,6 +122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "华氏度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "華氏度"
           }
         }
       }
@@ -91,6 +139,12 @@
             "state" : "translated",
             "value" : "在 %@ 的电流变化范围内拟合，其中 %@ 落在这条直线上。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 %@ 的電流變化範圍內擬合，其中 %@ 落在這條直線上。"
+          }
         }
       }
     },
@@ -100,6 +154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在整段合约上拟合"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在整段合約上擬合"
           }
         }
       }
@@ -111,6 +171,12 @@
             "state" : "translated",
             "value" : "单次采样"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "單次取樣"
+          }
         }
       }
     },
@@ -120,6 +186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "单次采样，以协商出的 %@ 为参考。那个值是天花板而不是测量值，所以只能当数量级看。一旦电流动起来——80% 之后的涓流、热降频、手机自身的负载——它就会被一个完全不需要参考值的拟合结果取代。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "單次取樣，以協商出的 %@ 為參考。那個值是天花板而不是測量值，所以只能當數量級看。一旦電流動起來——80% 之後的涓流、熱降頻、手機自身的負載——它就會被一個完全不需要參考值的擬合結果取代。"
           }
         }
       }
@@ -131,6 +203,12 @@
             "state" : "translated",
             "value" : "获取${metric}"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獲取${metric}"
+          }
         }
       }
     },
@@ -140,6 +218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "获取${metric}（${unit}）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獲取${metric}（${unit}）"
           }
         }
       }
@@ -151,6 +235,12 @@
             "state" : "translated",
             "value" : "获取读数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獲取讀數"
+          }
         }
       }
     },
@@ -160,6 +250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "对充电通路来说偏高。线更细、更长，插头磨损，或接触松动，看起来都是这样。在同一个充电器上换一根线，才能分清是哪一种。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對充電通路來說偏高。線更細、更長，插頭磨損，或接觸鬆動，看起來都是這樣。在同一個充電器上換一根線，才能分清是哪一種。"
           }
         }
       }
@@ -171,6 +267,12 @@
             "state" : "translated",
             "value" : "通路损耗"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通路損耗"
+          }
         }
       }
     },
@@ -180,6 +282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "低。这条连接没有拖慢充电。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低。這條連線沒有拖慢充電。"
           }
         }
       }
@@ -191,6 +299,12 @@
             "state" : "translated",
             "value" : "占可用电流"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "佔可用電流"
+          }
         }
       }
     },
@@ -200,6 +314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "对较长或较细的线缆来说很常见。会有少量功率变成热，在这样的电流下不太会影响充电速度。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對較長或較細的線材來說很常見。會有少量功率變成熱，在這樣的電流下不太會影響充電速度。"
           }
         }
       }
@@ -211,6 +331,12 @@
             "state" : "translated",
             "value" : "通路电阻"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通路電阻"
+          }
         }
       }
     },
@@ -220,6 +346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "读数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讀數"
           }
         }
       }
@@ -231,6 +363,12 @@
             "state" : "translated",
             "value" : "在动作运行的那一刻从手机传感器读取一个值。传感器没有应答时，动作返回“无值”——不会返回 0，也不会返回之前的读数——这样快捷指令能分辨出来。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在動作執行的那一刻從手機感測器讀取一個值。感測器沒有回應時，動作返回「無值」——不會返回 0，也不會返回之前的讀數——這樣捷徑能分辨出來。"
+          }
         }
       }
     },
@@ -240,6 +378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取电比例"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取電比例"
           }
         }
       }
@@ -251,6 +395,12 @@
             "state" : "translated",
             "value" : "温度单位"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度單位"
+          }
         }
       }
     },
@@ -260,6 +410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这是该充电器上记录到的最低通路电阻。这次用的线和插法，已经是它见过最好的。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是該充電器上記錄到的最低通路電阻。這次用的線和插法，已經是它見過最好的。"
           }
         }
       }
@@ -271,6 +427,12 @@
             "state" : "translated",
             "value" : "供电轨在负载下塌陷。手机取的电远低于充电器给出的额度，端口电压也远低于协商值——电流正被压着，以免电压继续往下掉。在这个充电器上换一根线试试：压降变小，就是线的问题。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "供電軌在負載下塌陷。手機取的電遠低於充電器給出的額度，連接埠電壓也遠低於協商值——電流正被壓著，以免電壓繼續往下掉。在這個充電器上換一根線試試：壓降變小，就是線的問題。"
+          }
         }
       }
     },
@@ -280,6 +442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "端口电压已经塌到远低于协商值，手机正压着电流以维持电压。问题出在线缆或插头，不在充电器。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連接埠電壓已經塌到遠低於協商值，手機正壓著電流以維持電壓。問題出在線材或插頭，不在充電器。"
           }
         }
       }
@@ -291,6 +459,12 @@
             "state" : "translated",
             "value" : "单位"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "單位"
+          }
         }
       }
     },
@@ -300,6 +474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电压损失"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電壓損失"
           }
         }
       }
@@ -311,6 +491,12 @@
             "state" : "translated",
             "value" : "等待手机取电到足以测出压降。低于约 150 mA 就没有可除的东西了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待手機取電到足以測出壓降。低於約 150 mA 就沒有可除的東西了。"
+          }
         }
       }
     },
@@ -320,6 +506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电没有线缆，也没有输入电流传感器，无从测量。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電沒有線材，也沒有輸入電流感測器，無從測量。"
           }
         }
       }
@@ -351,6 +543,12 @@
             "state" : "translated",
             "value" : "%1$@ 已持续 %2$@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 已持續 %2$@"
+          }
         }
       }
     },
@@ -360,6 +558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 发热"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 發熱"
           }
         }
       }
@@ -371,6 +575,12 @@
             "state" : "translated",
             "value" : "%@ W 输入"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W 輸入"
+          }
         }
       }
     },
@@ -380,6 +590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ W 充入电芯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W 充入電芯"
           }
         }
       }
@@ -394,6 +610,12 @@
             "state" : "translated",
             "value" : "%lld 个样本"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個樣本"
+          }
         }
       }
     },
@@ -403,6 +625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld 个传感器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個感測器"
           }
         }
       }
@@ -423,6 +651,12 @@
             "state" : "translated",
             "value" : "%1$lld%% → %2$lld%%"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld%% → %2$lld%%"
+          }
         }
       }
     },
@@ -432,6 +666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "占适配器 %lld%%"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉接器的 %lld%%"
           }
         }
       }
@@ -446,6 +686,12 @@
             "state" : "translated",
             "value" : "46+"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "46+"
+          }
         }
       }
     },
@@ -455,6 +701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "切到后台不会结束一次充电记录：记录在拔掉充电器时才结束，而不是在你切走时。应用没看到的那段时间会从总量中排除，而不是估算补上；每条记录都会注明其中有多少是真正测到的。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切到背景不會結束一次充電紀錄：紀錄在拔掉充電器時才結束，而不是在你切走時。App 沒看到的那段時間會從總量中排除，而不是估算補上；每筆紀錄都會註明其中有多少是真正測到的。"
           }
         }
       }
@@ -466,6 +718,12 @@
             "state" : "translated",
             "value" : "插入充电器时开始记录会话，拔出时自动保存。电量数据由实时传感器积分计算得出，因此请将 MiniWatts 保持在前台运行，以确保完整记录整个充电过程。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "插入充電器時開始記錄這次充電，拔出時自動儲存。電量資料由即時感測器積分計算得出，因此請將 MiniWatts 保持在前景執行，以確保完整記錄整個充電過程。"
+          }
         }
       }
     },
@@ -475,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关于"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關於"
           }
         }
       }
@@ -486,12 +750,24 @@
             "state" : "translated",
             "value" : "超过 80% 后充电转入恒压涓流阶段，此时功率偏低是正常的电池特性，不是充电器不行。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超過 80% 後充電轉入恆壓涓流階段，此時功率偏低是正常的電池特性，不是充電器不行。"
+          }
         }
       }
     },
     "Accessories" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配件"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "配件"
@@ -506,6 +782,12 @@
             "state" : "translated",
             "value" : "此 iOS 版本不支持读取配件电量。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 iOS 版本不支援讀取配件電量。"
+          }
         }
       }
     },
@@ -515,6 +797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "适配器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉接器"
           }
         }
       }
@@ -526,6 +814,12 @@
             "state" : "translated",
             "value" : "适配器利用率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉接器使用率"
+          }
         }
       }
     },
@@ -535,6 +829,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "广播供电规格"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "廣播供電規格"
           }
         }
       }
@@ -546,12 +846,24 @@
             "state" : "translated",
             "value" : "所有会话"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有紀錄"
+          }
         }
       }
     },
     "available" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "可用"
@@ -566,6 +878,12 @@
             "state" : "translated",
             "value" : "平均输入"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平均輸入"
+          }
         }
       }
     },
@@ -575,6 +893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池"
           }
         }
       }
@@ -586,6 +910,12 @@
             "state" : "translated",
             "value" : "电池温度 °C"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池溫度 °C"
+          }
         }
       }
     },
@@ -595,6 +925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯"
           }
         }
       }
@@ -606,6 +942,12 @@
             "state" : "translated",
             "value" : "电池能量"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池能量"
+          }
         }
       }
     },
@@ -615,6 +957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池健康度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池健康度"
           }
         }
       }
@@ -626,6 +974,12 @@
             "state" : "translated",
             "value" : "电池组电压"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池組電壓"
+          }
         }
       }
     },
@@ -635,6 +989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池侧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池側"
           }
         }
       }
@@ -646,6 +1006,12 @@
             "state" : "translated",
             "value" : "电池轨电压"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池軌電壓"
+          }
         }
       }
     },
@@ -655,6 +1021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BatteryCenter 已加载并有响应，但未报告任何已连接设备。它对 powerd 的 XPC 被拒绝：控制台会出现 _BCPowerSourceController “Failed to obtain power sources info”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter 已載入並有響應，但未報告任何已連線裝置。它對 powerd 的 XPC 被拒絕：主控臺會出現 _BCPowerSourceController 「Failed to obtain power sources info」。"
           }
         }
       }
@@ -666,6 +1038,12 @@
             "state" : "translated",
             "value" : "BatteryCenter 已加载，但运行时中未找到 BCBatteryDeviceController。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter 已載入，但執行時中未找到 BCBatteryDeviceController。"
+          }
         }
       }
     },
@@ -675,6 +1053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "BatteryCenter.framework 加载失败：%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter.framework 載入失敗：%@"
           }
         }
       }
@@ -686,6 +1070,12 @@
             "state" : "translated",
             "value" : "在此 iOS 版本上无法创建 BCBatteryDeviceController。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 iOS 版本上無法建立 BCBatteryDeviceController。"
+          }
         }
       }
     },
@@ -695,6 +1085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在此 iOS 版本上，BCBatteryDeviceController 未提供设备列表。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 iOS 版本上，BCBatteryDeviceController 未提供裝置列表。"
           }
         }
       }
@@ -706,12 +1102,24 @@
             "state" : "translated",
             "value" : "相机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相機"
+          }
         }
       }
     },
     "Cancel" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -726,6 +1134,12 @@
             "state" : "translated",
             "value" : "充电盒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電盒"
+          }
         }
       }
     },
@@ -735,6 +1149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯电流"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯電流"
           }
         }
       }
@@ -746,6 +1166,12 @@
             "state" : "translated",
             "value" : "电芯温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯溫度"
+          }
         }
       }
     },
@@ -755,6 +1181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯电压"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯電壓"
           }
         }
       }
@@ -766,6 +1198,12 @@
             "state" : "translated",
             "value" : "电芯功率 ÷ 充电器功率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯功率 ÷ 充電器功率"
+          }
         }
       }
     },
@@ -775,6 +1213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摄氏度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "攝氏度"
           }
         }
       }
@@ -786,6 +1230,12 @@
             "state" : "translated",
             "value" : "电量 %"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電量 %"
+          }
         }
       }
     },
@@ -795,6 +1245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电曲线"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電曲線"
           }
         }
       }
@@ -806,6 +1262,12 @@
             "state" : "translated",
             "value" : "充电芯片"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片"
+          }
         }
       }
     },
@@ -815,6 +1277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电芯片核心温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片核心溫度"
           }
         }
       }
@@ -826,6 +1294,12 @@
             "state" : "translated",
             "value" : "充电芯片结温"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片結溫"
+          }
         }
       }
     },
@@ -835,6 +1309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池电量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池電量"
           }
         }
       }
@@ -846,6 +1326,12 @@
             "state" : "translated",
             "value" : "当前充电功率低于适配器额定功率属正常现象：此时的功率限制来自系统温控，而非充电器。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前充電功率低於轉接器額定功率是正常的：此時的功率限制來自系統溫控，不是充電器。"
+          }
         }
       }
     },
@@ -855,6 +1341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电中"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電中"
           }
         }
       }
@@ -866,6 +1358,12 @@
             "state" : "translated",
             "value" : "充电中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電中"
+          }
         }
       }
     },
@@ -875,6 +1373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电处于暂停状态，几乎不取电。优化电池充电或充电上限就是这个样子。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電處於暫停狀態，幾乎不取電。最佳化電池充電或充電上限就是這個樣子。"
           }
         }
       }
@@ -886,6 +1390,12 @@
             "state" : "translated",
             "value" : "暂停充电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫停充電"
+          }
         }
       }
     },
@@ -895,6 +1405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当前为无线充电。充电芯片仅提供了线圈电压，未提供对应电流，因此无法测量输入功率 —— 仅能测量充入电芯的功率。充电器自身报告的数值仅为功率上限而非实时读数，不会发生变化。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前為無線充電。充電晶片僅提供了線圈電壓，未提供對應電流，因此無法測量輸入功率 —— 僅能測量充入電芯的功率。充電器自身報告的數值僅為功率上限而非即時讀數，不會發生變化。"
           }
         }
       }
@@ -906,6 +1422,12 @@
             "state" : "translated",
             "value" : "机身"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機身"
+          }
         }
       }
     },
@@ -915,6 +1437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "严重过热"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嚴重過熱"
           }
         }
       }
@@ -926,6 +1454,12 @@
             "state" : "translated",
             "value" : "电池充电电流"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池充電電流"
+          }
         }
       }
     },
@@ -935,6 +1469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "循环次数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "循環次數"
           }
         }
       }
@@ -946,6 +1486,12 @@
             "state" : "translated",
             "value" : "全部删除"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部刪除"
+          }
         }
       }
     },
@@ -955,6 +1501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除所有已保存的会话？"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要刪除所有已儲存的充電紀錄嗎？"
           }
         }
       }
@@ -966,6 +1518,12 @@
             "state" : "translated",
             "value" : "输入"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輸入"
+          }
         }
       }
     },
@@ -975,6 +1533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "详细信息"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳細資訊"
           }
         }
       }
@@ -986,6 +1550,12 @@
             "state" : "translated",
             "value" : "设备"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "裝置"
+          }
         }
       }
     },
@@ -995,6 +1565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设备"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "裝置"
           }
         }
       }
@@ -1006,12 +1582,24 @@
             "state" : "translated",
             "value" : "屏幕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "螢幕"
+          }
         }
       }
     },
     "Done" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "完成"
@@ -1026,6 +1614,12 @@
             "state" : "translated",
             "value" : "实际功率与额定功率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "實際功率與額定功率"
+          }
         }
       }
     },
@@ -1035,6 +1629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "远低于适配器的额定功率。线材太细、端口被分流，或手机拒绝了某个档位，都会这样。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠低於轉接器的額定功率。線材太細、連接埠被分流，或手機拒絕了某個檔位，都會這樣。"
           }
         }
       }
@@ -1046,6 +1646,12 @@
             "state" : "translated",
             "value" : "由电池供电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由電池供電"
+          }
         }
       }
     },
@@ -1055,6 +1661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "耳机 + 充电盒"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "耳機 + 充電盒"
           }
         }
       }
@@ -1066,6 +1678,12 @@
             "state" : "translated",
             "value" : "转换效率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轉換效率"
+          }
         }
       }
     },
@@ -1075,6 +1693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已用時間"
           }
         }
       }
@@ -1086,6 +1710,12 @@
             "state" : "translated",
             "value" : "%@后耗尽"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@後耗盡"
+          }
         }
       }
     },
@@ -1096,12 +1726,24 @@
             "state" : "translated",
             "value" : "结束"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
         }
       }
     },
     "Energy" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "能量"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "能量"
@@ -1116,6 +1758,12 @@
             "state" : "translated",
             "value" : "轻度发热"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輕度發熱"
+          }
         }
       }
     },
@@ -1125,6 +1773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "即将充满"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即將充滿"
           }
         }
       }
@@ -1136,6 +1790,12 @@
             "state" : "translated",
             "value" : "来自电池（%-率估算）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自電池（%-率估算）"
+          }
         }
       }
     },
@@ -1145,6 +1805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来自充电器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自充電器"
           }
         }
       }
@@ -1156,6 +1822,12 @@
             "state" : "translated",
             "value" : "来自充电器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自充電器"
+          }
         }
       }
     },
@@ -1165,6 +1837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来自 MagSafe"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自 MagSafe"
           }
         }
       }
@@ -1176,6 +1854,12 @@
             "state" : "translated",
             "value" : "已充满"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已充滿"
+          }
         }
       }
     },
@@ -1185,6 +1869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@后充满"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@後充滿"
           }
         }
       }
@@ -1196,6 +1886,12 @@
             "state" : "translated",
             "value" : "增加电量"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "增加電量"
+          }
         }
       }
     },
@@ -1205,6 +1901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "握手信息"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交握資訊"
           }
         }
       }
@@ -1216,6 +1918,12 @@
             "state" : "translated",
             "value" : "热力图 · 示意图"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱力圖 · 示意圖"
+          }
         }
       }
     },
@@ -1225,6 +1933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "HID 传感器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HID 感測器"
           }
         }
       }
@@ -1236,6 +1950,12 @@
             "state" : "translated",
             "value" : "历史记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歷史紀錄"
+          }
         }
       }
     },
@@ -1245,6 +1965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最高温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高溫度"
           }
         }
       }
@@ -1256,6 +1982,12 @@
             "state" : "translated",
             "value" : "最高温传感器（最近 3 分钟）"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高溫感測器（最近 3 分鐘）"
+          }
         }
       }
     },
@@ -1265,6 +1997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "空闲"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空閒"
           }
         }
       }
@@ -1276,6 +2014,12 @@
             "state" : "translated",
             "value" : "进行中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行中"
+          }
         }
       }
     },
@@ -1285,6 +2029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "推断"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推斷"
           }
         }
       }
@@ -1296,6 +2046,12 @@
             "state" : "translated",
             "value" : "内置"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "內建"
+          }
         }
       }
     },
@@ -1305,6 +2061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进入电池"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進入電池"
           }
         }
       }
@@ -1316,6 +2078,12 @@
             "state" : "translated",
             "value" : "进入电池"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進入電池"
+          }
         }
       }
     },
@@ -1325,6 +2093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充入电芯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充入電芯"
           }
         }
       }
@@ -1336,6 +2110,12 @@
             "state" : "translated",
             "value" : "IOKit 报告此系统的设计容量为 %lld mAh，因此将直接使用该数值。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IOKit 報告此係統的設計容量為 %lld mAh，因此將直接使用該數值。"
+          }
         }
       }
     },
@@ -1345,6 +2125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电时保持屏幕常亮"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電時保持螢幕常亮"
           }
         }
       }
@@ -1356,12 +2142,24 @@
             "state" : "translated",
             "value" : "最近 3 分钟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 3 分鐘"
+          }
         }
       }
     },
     "Left" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "左"
@@ -1376,6 +2174,12 @@
             "state" : "translated",
             "value" : "左 + 右"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左 + 右"
+          }
         }
       }
     },
@@ -1385,6 +2189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电量与温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電量與溫度"
           }
         }
       }
@@ -1396,6 +2206,12 @@
             "state" : "translated",
             "value" : "实时供电轨"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即時供電軌"
+          }
         }
       }
     },
@@ -1405,6 +2221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "损耗"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "損耗"
           }
         }
       }
@@ -1416,6 +2238,12 @@
             "state" : "translated",
             "value" : "发热损耗"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發熱損耗"
+          }
         }
       }
     },
@@ -1425,6 +2253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "低电量"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低電量"
           }
         }
       }
@@ -1436,12 +2270,24 @@
             "state" : "translated",
             "value" : "低电量模式"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "低耗電模式"
+          }
         }
       }
     },
     "MagSafe" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MagSafe"
@@ -1455,6 +2301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "制造商"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "製造商"
           }
         }
       }
@@ -1472,12 +2324,24 @@
             "state" : "translated",
             "value" : "在总计 %2$@ 中实际测量了 %1$@ —— 其余时间应用处于后台，该时间段直接排除未进行估算。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在總計 %2$@ 中實際測量了 %1$@ —— 其餘時間 App 處於背景，該時間段直接排除未進行估算。"
+          }
         }
       }
     },
     "MiniWatts" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MiniWatts"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MiniWatts"
@@ -1492,6 +2356,12 @@
             "state" : "translated",
             "value" : "MiniWatts 通过私有框架（IOKit、IOHIDEventSystemClient 和 BatteryCenter）读取手机自身的电源管理传感器。所有数据均保留在设备本地，且不会在应用自身的容器外写入任何内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MiniWatts 透過私有框架（IOKit、IOHIDEventSystemClient 和 BatteryCenter）讀取手機自身的電源管理感測器。資料不會離開這支手機，也不會寫到 App 自己的容器以外。"
+          }
         }
       }
     },
@@ -1501,6 +2371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "型号"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "型號"
           }
         }
       }
@@ -1512,6 +2388,12 @@
             "state" : "translated",
             "value" : "机型标识"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機型識別碼"
+          }
         }
       }
     },
@@ -1521,6 +2403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "名称"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
           }
         }
       }
@@ -1532,6 +2420,12 @@
             "state" : "translated",
             "value" : "协商档位"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "協商檔位"
+          }
         }
       }
     },
@@ -1541,6 +2435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本次记录没有电芯温度数据。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次記錄沒有電芯溫度資料。"
           }
         }
       }
@@ -1552,6 +2452,12 @@
             "state" : "translated",
             "value" : "暂无已完成的充电记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫無已完成的充電紀錄"
+          }
         }
       }
     },
@@ -1561,6 +2467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未发现 HID 功率传感器。在模拟器上这是正常现象 —— IOKit 读取的是 Mac 的电池，手机的 PMU 传感器并不存在。请在真机上运行以获取真实数据。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未發現 HID 功率感測器。在模擬器上這是正常現象 —— IOKit 讀取的是 Mac 的電池，手機的 PMU 感測器並不存在。請在真機上執行以獲取真實資料。"
           }
         }
       }
@@ -1572,6 +2484,12 @@
             "state" : "translated",
             "value" : "无读数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無讀數"
+          }
         }
       }
     },
@@ -1581,6 +2499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未记录任何样本。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未記錄任何樣本。"
           }
         }
       }
@@ -1592,6 +2516,12 @@
             "state" : "translated",
             "value" : "未发现温度传感器。模拟器不提供温度传感器；在真机上，应用读取 HID 服务列表后即可显示。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未發現溫度感測器。模擬器不提供溫度感測器；在真機上，App 讀到 HID 服務列表後就會出現。"
+          }
         }
       }
     },
@@ -1602,12 +2532,24 @@
             "state" : "translated",
             "value" : "充电电流不受发热限制。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電電流不受發熱限制。"
+          }
         }
       }
     },
     "Nominal" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正常"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "正常"
@@ -1622,12 +2564,24 @@
             "state" : "translated",
             "value" : "未连接"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未連線"
+          }
         }
       }
     },
     "of" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "/"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "/"
@@ -1642,6 +2596,12 @@
             "state" : "translated",
             "value" : "电池供电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池供電"
+          }
         }
       }
     },
@@ -1651,6 +2611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池供电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池供電"
           }
         }
       }
@@ -1662,6 +2628,12 @@
             "state" : "translated",
             "value" : "其他传感器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他感測器"
+          }
         }
       }
     },
@@ -1672,12 +2644,24 @@
             "state" : "translated",
             "value" : "设备过热：已暂停充电，直至手机冷却。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "裝置過熱：已暫停充電，直至手機冷卻。"
+          }
         }
       }
     },
     "peak %@ W" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "峰值 %@ W"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "峰值 %@ W"
@@ -1692,6 +2676,12 @@
             "state" : "translated",
             "value" : "电芯温度峰值"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯溫度峰值"
+          }
         }
       }
     },
@@ -1701,6 +2691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电器输入峰值"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器輸入峰值"
           }
         }
       }
@@ -1712,12 +2708,24 @@
             "state" : "translated",
             "value" : "充入电芯峰值"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充入電芯峰值"
+          }
         }
       }
     },
     "Percent" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "百分比"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "百分比"
@@ -1732,6 +2740,12 @@
             "state" : "translated",
             "value" : "接入充电器以读取其握手信息。USB-PD 适配器会广播包含电压与电流的供电规格列表；手机选择其中一个档位，此页面会显示所选档位以及当前实际的功率流动情况。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接入充電器以讀取其交握資訊。USB-PD 轉接器會廣播包含電壓與電流的供電規格列表；手機選擇其中一個檔位，此頁面會顯示所選檔位以及目前實際的功率流動情況。"
+          }
         }
       }
     },
@@ -1741,6 +2755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接入充电器以开始测量。应用在前台运行时将从实时传感器积分计算电量，并在拔出时保存至历史记录。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接入充電器以開始測量。App 在前景執行時將從即時感測器積分計算電量，並在拔出時儲存至歷史紀錄。"
           }
         }
       }
@@ -1752,12 +2772,24 @@
             "state" : "translated",
             "value" : "已连接电源，未充电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已連線電源，未充電"
+          }
         }
       }
     },
     "Power" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率"
@@ -1772,6 +2804,12 @@
             "state" : "translated",
             "value" : "供电路径"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "供電路徑"
+          }
         }
       }
     },
@@ -1781,6 +2819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率等级"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率等級"
           }
         }
       }
@@ -1792,6 +2836,12 @@
             "state" : "translated",
             "value" : "射频模块"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "射頻模組"
+          }
         }
       }
     },
@@ -1801,6 +2851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "额定"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "額定"
           }
         }
       }
@@ -1812,12 +2868,24 @@
             "state" : "translated",
             "value" : "记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記錄"
+          }
         }
       }
     },
     "Right" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "右"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "右"
@@ -1832,6 +2900,12 @@
             "state" : "translated",
             "value" : "综合效率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綜合效率"
+          }
         }
       }
     },
@@ -1841,6 +2915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "采样点"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取樣點"
           }
         }
       }
@@ -1852,6 +2932,12 @@
             "state" : "translated",
             "value" : "传感器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感測器"
+          }
         }
       }
     },
@@ -1861,6 +2947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只有 MiniWatts 在前台时才能读取传感器，所以一次充电只能记录到屏幕保持点亮为止。打开后会保持屏幕常亮——但仅限连接充电器时，用电池时绝不会。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只有 MiniWatts 在前景時才能讀取感測器，所以一次充電只能記錄到螢幕保持點亮為止。開啟後會保持螢幕常亮——但僅限連線充電器時，用電池時絕不會。"
           }
         }
       }
@@ -1872,12 +2964,24 @@
             "state" : "translated",
             "value" : "序列号"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "序列號"
+          }
         }
       }
     },
     "Series" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系列"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "系列"
@@ -1892,6 +2996,12 @@
             "state" : "translated",
             "value" : "严重发热"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嚴重發熱"
+          }
         }
       }
     },
@@ -1901,6 +3011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         }
       }
@@ -1912,6 +3028,12 @@
             "state" : "translated",
             "value" : "SoC 芯片"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC 晶片"
+          }
         }
       }
     },
@@ -1921,6 +3043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來源"
           }
         }
       }
@@ -1932,6 +3060,12 @@
             "state" : "translated",
             "value" : "开始"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始"
+          }
         }
       }
     },
@@ -1941,6 +3075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "存储"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
           }
         }
       }
@@ -1952,6 +3092,12 @@
             "state" : "translated",
             "value" : "储存"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
+          }
         }
       }
     },
@@ -1961,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充入电芯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充入電芯"
           }
         }
       }
@@ -1972,6 +3124,12 @@
             "state" : "translated",
             "value" : "系统"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系統"
+          }
         }
       }
     },
@@ -1981,6 +3139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "系统负载 + 损耗"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系統負載 + 損耗"
           }
         }
       }
@@ -1992,6 +3156,12 @@
             "state" : "translated",
             "value" : "系统发热状态"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系統發熱狀態"
+          }
         }
       }
     },
@@ -2001,6 +3171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温度数据为实际测量值，但位置并非如此。iOS 仅报告传感器名称和数值，完全不包含坐标信息，因此各发热区域均按近年 iPhone 的常见布局绘制在固定位置 —— 主板位于上方摄像头后部，电池位于中部，充电芯片位于接口旁。不同机型的实际内部布局存在差异。请将此图作为下方列表的图例参考，而非手机内部的真实地图。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度資料為實際測量值，但位置並非如此。iOS 僅報告感測器名稱和數值，完全不包含座標資訊，因此各發熱區域均按近年 iPhone 的常見佈局繪製在固定位置 —— 主機板位於上方攝像頭後部，電池位於中部，充電晶片位於介面旁。不同機型的實際內部佈局存在差異。請將此圖作為下方列表的圖例參考，不是手機內部的真實地圖。"
           }
         }
       }
@@ -2012,6 +3188,12 @@
             "state" : "translated",
             "value" : "发热"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發熱"
+          }
         }
       }
     },
@@ -2021,6 +3203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温控限制已生效"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫控限制已生效"
           }
         }
       }
@@ -2032,6 +3220,12 @@
             "state" : "translated",
             "value" : "此适配器未广播 PD 供电规格菜单。传统的 USB-A 充电器和部分无线充电板仅报告单个电压和电流。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此轉接器未廣播 PD 供電規格選單。傳統的 USB-A 充電器和部分無線充電板僅報告單一電壓和電流。"
+          }
         }
       }
     },
@@ -2041,6 +3235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本次充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次充電"
           }
         }
       }
@@ -2052,6 +3252,12 @@
             "state" : "translated",
             "value" : "本机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本機"
+          }
         }
       }
     },
@@ -2061,6 +3267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此会话在写入第一个样本前已结束。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這次充電在寫入第一筆樣本前已結束。"
           }
         }
       }
@@ -2072,6 +3284,12 @@
             "state" : "translated",
             "value" : "这些 API 属于私有接口，因此本构建版本仅供侧载使用：它无法通过 App Store 审核，且任何 iOS 系统更新都可能修改或移除其读取的数据。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這些 API 是私有介面，所以這個版本只能自行簽名安裝，過不了 App Store 審核。任何一次 iOS 更新都可能改掉或拿掉它讀到的資料。"
+          }
         }
       }
     },
@@ -2081,6 +3299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "节流"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "節流"
           }
         }
       }
@@ -2092,6 +3316,12 @@
             "state" : "translated",
             "value" : "发热限频：iOS 正在限制充电电流与芯片频率。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發熱限頻：iOS 正在限制充電電流與晶片頻率。"
+          }
         }
       }
     },
@@ -2101,6 +3331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "时间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間"
           }
         }
       }
@@ -2112,12 +3348,24 @@
             "state" : "translated",
             "value" : "连接方式"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線方式"
+          }
         }
       }
     },
     "unavailable" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不可用"
@@ -2132,6 +3380,12 @@
             "state" : "translated",
             "value" : "未知"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知"
+          }
         }
       }
     },
@@ -2141,6 +3395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未知适配器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知轉接器"
           }
         }
       }
@@ -2152,6 +3412,12 @@
             "state" : "translated",
             "value" : "未知设备"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知裝置"
+          }
         }
       }
     },
@@ -2162,12 +3428,24 @@
             "state" : "translated",
             "value" : "未识别的发热状态。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未識別的發熱狀態。"
+          }
         }
       }
     },
     "USB-C" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C"
@@ -2182,6 +3460,12 @@
             "state" : "translated",
             "value" : "USB-C 输入"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C 輸入"
+          }
         }
       }
     },
@@ -2191,6 +3475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C 输入电流"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C 輸入電流"
           }
         }
       }
@@ -2202,6 +3492,12 @@
             "state" : "translated",
             "value" : "USB-C 输入电压"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C 輸入電壓"
+          }
         }
       }
     },
@@ -2211,6 +3507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "仅用于百分比变化率估算，这也是查看放电功率的唯一方式：沙盒应用无法访问任何放电电流传感器。请查询您机型的额定能量（例如 iPhone 17 Pro Max 约为 19.7 Wh）并在此输入。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "僅用於百分比變化率估算，這也是檢視放電功率的唯一方式：沙盒 App 無法存取任何放電電流感測器。請查你機型的額定能量（例如 iPhone 17 Pro Max 約為 19.7 Wh）並在此輸入。"
           }
         }
       }
@@ -2222,6 +3524,12 @@
             "state" : "translated",
             "value" : "W 额定"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W 額定"
+          }
         }
       }
     },
@@ -2232,12 +3540,24 @@
             "state" : "translated",
             "value" : "温度上升中，充电电流可能会被削减。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度上升中，充電電流可能會被削減。"
+          }
         }
       }
     },
     "Watts" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率"
@@ -2252,6 +3572,12 @@
             "state" : "translated",
             "value" : "系统正在因发热限频，功率远低于适配器额定值——此刻的瓶颈是温度，不是充电器。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系統正在因發熱限頻，功率遠低於轉接器額定值——此刻的瓶頸是溫度，不是充電器。"
+          }
         }
       }
     },
@@ -2261,6 +3587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "有线"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有線"
           }
         }
       }
@@ -2272,6 +3604,12 @@
             "state" : "translated",
             "value" : "无线"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線"
+          }
         }
       }
     },
@@ -2281,6 +3619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电器"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電器"
           }
         }
       }
@@ -2292,6 +3636,12 @@
             "state" : "translated",
             "value" : "无线充电没有输入电流传感器，因此无法与额定功率进行对比。下方的电压与电流为充电板协商的供电规格 —— 仅作为固定上限，而实际功率则会动态变动。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電沒有輸入電流感測器，因此無法與額定功率進行對比。下方的電壓與電流為充電板協商的供電規格 —— 僅作為固定上限，而實際功率則會動態變動。"
+          }
         }
       }
     },
@@ -2301,6 +3651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电的上限远低于同一适配器通过线缆能提供的功率。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電的上限遠低於同一轉接器透過線材能提供的功率。"
           }
         }
       }
@@ -2312,6 +3668,12 @@
             "state" : "translated",
             "value" : "无线充电线圈"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電線圈"
+          }
         }
       }
     },
@@ -2321,6 +3683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线输入"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線輸入"
           }
         }
       }
@@ -2332,6 +3700,12 @@
             "state" : "translated",
             "value" : "无线输入电流"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線輸入電流"
+          }
         }
       }
     },
@@ -2341,6 +3715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线输入电压"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線輸入電壓"
           }
         }
       }
@@ -2352,6 +3732,12 @@
             "state" : "translated",
             "value" : "锁定屏幕与小组件"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鎖定畫面與小工具"
+          }
         }
       }
     },
@@ -2361,6 +3747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电时显示实时活动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電時顯示即時動態"
           }
         }
       }
@@ -2372,6 +3764,12 @@
             "state" : "translated",
             "value" : "在锁定屏幕、灵动岛和待机显示中显示充电功率。它只在 MiniWatts 运行时更新；App 被挂起后，读数会标记为已暂停，而不会被当作当前数值显示。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在鎖定畫面、動態島和待機顯示中顯示充電功率。它只在 MiniWatts 執行時更新；App 被系統暫停後，讀數會標記為已暫停，而不會被當作目前數值顯示。"
+          }
         }
       }
     },
@@ -2381,6 +3779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小组件会在 iOS 刷新时自行读取传感器——通常每 15 到 60 分钟一次；MiniWatts 打开时插拔充电器会立即刷新。每个小组件都会注明数据的读取时间。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小工具會在 iOS 重新整理時自行讀取感測器——通常每 15 到 60 分鐘一次；MiniWatts 開啟時插拔充電器會立即重新整理。每個小工具都會註明資料的讀取時間。"
           }
         }
       }
@@ -2392,6 +3796,12 @@
             "state" : "translated",
             "value" : "悬浮读数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浮動讀數"
+          }
         }
       }
     },
@@ -2401,6 +3811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打开悬浮读数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟浮動讀數"
           }
         }
       }
@@ -2412,6 +3828,12 @@
             "state" : "translated",
             "value" : "关闭悬浮读数"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉浮動讀數"
+          }
         }
       }
     },
@@ -2421,6 +3843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此设备不支持画中画。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此裝置不支援子母畫面。"
           }
         }
       }
@@ -2432,6 +3860,12 @@
             "state" : "translated",
             "value" : "把读数放进一个悬浮窗，它浮在其他 App 上方，每秒更新一次。这是 iOS 唯一允许 App 在离开屏幕后还能让数字继续走动的地方：小组件每小时只刷新几次，锁屏实时活动也只在 MiniWatts 自己运行时才会变。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把讀數放進一個浮動視窗，它浮在其他 App 上方，每秒更新一次。這是 iOS 唯一允許 App 在離開螢幕後還能讓數字繼續走動的地方：小工具每小時只重新整理幾次，鎖定畫面的即時動態也只在 MiniWatts 自己執行時才會變。"
+          }
         }
       }
     },
@@ -2441,6 +3875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "悬浮窗开着时 MiniWatts 会一直运行，所以锁屏后也能继续记录这次充电，同时也比挂起时更耗电，用完请关掉它。它不会播放任何声音：悬浮窗用的是和角落里播放视频相同的系统功能，App 声明音频播放能力只是为了它。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浮動視窗開著時 MiniWatts 會一直執行，所以鎖定後也能繼續記錄這次充電，同時也比暫停在背景時更耗電，用完請關掉它。它不會播放任何聲音：浮動視窗用的是和角落裡播放影片相同的系統功能，App 宣告音訊播放能力只是為了它。"
           }
         }
       }
@@ -2452,6 +3892,12 @@
             "state" : "translated",
             "value" : "iOS 现在还不让打开这个窗口。让 MiniWatts 在屏幕上多停一会儿，再试一次。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS 現在還不讓開啟這個視窗。讓 MiniWatts 在螢幕上多停一會兒，再試一次。"
+          }
         }
       }
     },
@@ -2461,6 +3907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "传感器叫什么、怎么换算、甚至有没有这个传感器，都因机型而异，而且没有任何官方文档。这个版本是在 iPhone Air（iPhone18,4）上开发和验证的。换一个机型，某项读数可能不存在，也可能名字和实际含义对不上。明显不可能的数值会被隐藏而不是显示出来，但一个看着还算合理、实际却是错的数值，这样是拦不住的——所以看到反常的数字请当它可疑，并带上你的机型标识反馈给我。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感測器叫什麼、怎麼換算、甚至有沒有這個感測器，都因機型而異，而且沒有任何官方文件。這個版本是在 iPhone Air（iPhone18,4）上開發和驗證的。換一個機型，某項讀數可能不存在，也可能名字和實際含義對不上。明顯不可能的數值會被隱藏而不是顯示出來，但一個看著還算合理、實際卻是錯的數值，這樣是攔不住的——所以看到反常的數字請當它可疑，並附上機型識別碼回報。"
           }
         }
       }
@@ -2472,6 +3924,12 @@
             "state" : "translated",
             "value" : "传感器的名称和换算方式因 iPhone 机型而异，这个版本是在 iPhone Air 上验证的。不可能的读数会被隐藏，但只是错、却还说得过去的读数拦不住——如果这里有哪个数字在你的机型上看着不对，很可能就是不对。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感測器的名稱和換算方式因 iPhone 機型而異，這個版本是在 iPhone Air 上驗證的。不可能的讀數會被隱藏，但只是錯、卻還說得過去的讀數攔不住——如果這裡有哪個數字在你的機型上看著不對，很可能就是不對。"
+          }
         }
       }
     },
@@ -2481,6 +3939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "免费开源"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免費開源"
           }
         }
       }
@@ -2492,6 +3956,12 @@
             "state" : "translated",
             "value" : "采用 Apache 2.0 许可证，整个 App（包括小组件）的源码都在 GitHub 上。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "採用 Apache 2.0 授權，整個 App（包括小工具）的原始碼都在 GitHub 上。"
+          }
         }
       }
     },
@@ -2501,6 +3971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "等待数据"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待資料"
           }
         }
       }
@@ -2512,6 +3988,12 @@
             "state" : "translated",
             "value" : "实时 · 1秒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即時 · 1秒"
+          }
         }
       }
     },
@@ -2521,6 +4003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请在设置中选择显示内容"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請在設定中選擇顯示內容"
           }
         }
       }
@@ -2532,6 +4020,12 @@
             "state" : "translated",
             "value" : "充电功率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電功率"
+          }
         }
       }
     },
@@ -2541,6 +4035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "部件温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元件溫度"
           }
         }
       }
@@ -2552,6 +4052,12 @@
             "state" : "translated",
             "value" : "充电器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器"
+          }
         }
       }
     },
@@ -2561,6 +4067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "温度显示"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度顯示"
           }
         }
       }
@@ -2572,6 +4084,12 @@
             "state" : "translated",
             "value" : "全部部件"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部元件"
+          }
         }
       }
     },
@@ -2581,6 +4099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SoC 温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC 溫度"
           }
         }
       }
@@ -2592,6 +4116,12 @@
             "state" : "translated",
             "value" : "电池温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池溫度"
+          }
         }
       }
     },
@@ -2601,6 +4131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电器温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器溫度"
           }
         }
       }
@@ -2612,6 +4148,12 @@
             "state" : "translated",
             "value" : "最高部件温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高元件溫度"
+          }
         }
       }
     },
@@ -2622,12 +4164,24 @@
             "state" : "translated",
             "value" : "布局"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "佈局"
+          }
         }
       }
     },
     "Together" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同屏"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "同屏"
@@ -2642,6 +4196,12 @@
             "state" : "translated",
             "value" : "分页轮播"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分頁輪播"
+          }
         }
       }
     },
@@ -2651,6 +4211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "至少选择一项显示内容。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "至少選擇一項顯示內容。"
           }
         }
       }
@@ -2662,6 +4228,12 @@
             "state" : "translated",
             "value" : "温度可选择全部部件或单独一个部件，且始终显示 iOS 系统发热状态。同屏模式同时显示功率和温度；分页轮播模式每四秒切换一次。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "溫度可選擇全部元件或單獨一個元件，且始終顯示 iOS 系統發熱狀態。同一畫面同時顯示功率和溫度；分頁輪播模式每四秒切換一次。"
+          }
         }
       }
     },
@@ -2671,6 +4243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主要读数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主要讀數"
           }
         }
       }
@@ -2682,6 +4260,12 @@
             "state" : "translated",
             "value" : "灵动岛紧凑状态显示此项读数。长按展开后可同时查看功率、SoC、电池和最高部件温度。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動態島精簡顯示顯示此項讀數。長按展開後可同時檢視功率、SoC、電池和最高元件溫度。"
+          }
         }
       }
     },
@@ -2692,6 +4276,12 @@
             "state" : "translated",
             "value" : "连接充电器且 MiniWatts 位于前台时会启动实时活动，并在 MiniWatts 运行期间持续刷新；App 被暂停后，读数会标记为已暂停。在 MiniWatts 运行时拔下充电器，两分钟后自动结束；如果拔下时 App 已被暂停，它会一直保留，直到 MiniWatts 再次运行。随时可以点实时活动上的“结束”把它关掉。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線充電器且 MiniWatts 位於前景時會啟動即時動態，並在 MiniWatts 執行期間持續重新整理；App 被暫停後，讀數會標記為已暫停。在 MiniWatts 執行時拔下充電器，兩分鐘後自動結束；如果拔下時 App 已被暫停，它會一直保留，直到 MiniWatts 再次執行。隨時可以點一下即時動態上的「結束」把它關掉。"
+          }
         }
       }
     },
@@ -2701,6 +4291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束实时活动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束即時動態"
           }
         }
       }

@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "电池"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池"
+          }
         }
       }
     },
@@ -17,6 +23,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电芯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電芯"
           }
         }
       }
@@ -28,6 +40,12 @@
             "state" : "translated",
             "value" : "电池组电压"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池組電壓"
+          }
         }
       }
     },
@@ -37,6 +55,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池轨电压"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池軌電壓"
           }
         }
       }
@@ -48,6 +72,12 @@
             "state" : "translated",
             "value" : "相机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相機"
+          }
         }
       }
     },
@@ -57,6 +87,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电芯片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片"
           }
         }
       }
@@ -68,6 +104,12 @@
             "state" : "translated",
             "value" : "充电芯片核心温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片核心溫度"
+          }
         }
       }
     },
@@ -77,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电芯片结温"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電晶片結溫"
           }
         }
       }
@@ -88,6 +136,12 @@
             "state" : "translated",
             "value" : "充电功率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電功率"
+          }
         }
       }
     },
@@ -97,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "充电功率与电量，读取自手机自身的传感器。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電功率與電量，讀取自手機自身的感測器。"
           }
         }
       }
@@ -108,6 +168,12 @@
             "state" : "translated",
             "value" : "充电中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電中"
+          }
         }
       }
     },
@@ -117,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "暂停充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫停充電"
           }
         }
       }
@@ -128,6 +200,12 @@
             "state" : "translated",
             "value" : "机身"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機身"
+          }
         }
       }
     },
@@ -137,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池充电电流"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池充電電流"
           }
         }
       }
@@ -148,6 +232,12 @@
             "state" : "translated",
             "value" : "屏幕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "螢幕"
+          }
         }
       }
     },
@@ -157,6 +247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "由电池供电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由電池供電"
           }
         }
       }
@@ -168,6 +264,12 @@
             "state" : "translated",
             "value" : "即将充满"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即將充滿"
+          }
         }
       }
     },
@@ -177,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "App 记录于 %@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 記錄於 %@"
           }
         }
       }
@@ -188,6 +296,12 @@
             "state" : "translated",
             "value" : "来自充电器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自充電器"
+          }
         }
       }
     },
@@ -197,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "来自 MagSafe"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來自 MagSafe"
           }
         }
       }
@@ -208,6 +328,12 @@
             "state" : "translated",
             "value" : "已充满"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已充滿"
+          }
         }
       }
     },
@@ -218,6 +344,12 @@
             "state" : "translated",
             "value" : "进入电池"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進入電池"
+          }
         }
       }
     },
@@ -227,6 +359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上次充电"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次充電"
           }
         }
       }
@@ -239,6 +377,12 @@
             "state" : "translated",
             "value" : "制造商"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "製造商"
+          }
         }
       }
     },
@@ -249,6 +393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "型号"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "型號"
           }
         }
       }
@@ -261,6 +411,12 @@
             "state" : "translated",
             "value" : "名称"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名稱"
+          }
         }
       }
     },
@@ -270,6 +426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "暂无读数"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫無讀數"
           }
         }
       }
@@ -281,6 +443,12 @@
             "state" : "translated",
             "value" : "电池供电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池供電"
+          }
         }
       }
     },
@@ -290,6 +458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请先打开一次 MiniWatts，稍后再来查看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請先開啟一次 MiniWatts，稍後再來檢視。"
           }
         }
       }
@@ -301,6 +475,12 @@
             "state" : "translated",
             "value" : "其他传感器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "其他感測器"
+          }
         }
       }
     },
@@ -310,6 +490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已暂停 — 打开 MiniWatts 以继续"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已暫停 — 開啟 MiniWatts 以繼續"
           }
         }
       }
@@ -321,6 +507,12 @@
             "state" : "translated",
             "value" : "已连接电源，未充电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已連線電源，未充電"
+          }
         }
       }
     },
@@ -330,6 +522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "射频模块"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "射頻模組"
           }
         }
       }
@@ -341,6 +539,12 @@
             "state" : "translated",
             "value" : "开始于 %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始於 %@"
+          }
         }
       }
     },
@@ -350,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SoC 芯片"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC 晶片"
           }
         }
       }
@@ -362,6 +572,12 @@
             "state" : "translated",
             "value" : "来源"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "來源"
+          }
         }
       }
     },
@@ -371,6 +587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "存储"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
           }
         }
       }
@@ -382,6 +604,12 @@
             "state" : "translated",
             "value" : "更新于 %@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新於 %@"
+          }
         }
       }
     },
@@ -389,6 +617,12 @@
       "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C"
@@ -403,6 +637,12 @@
             "state" : "translated",
             "value" : "USB-C 输入电流"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C 輸入電流"
+          }
         }
       }
     },
@@ -413,6 +653,12 @@
             "state" : "translated",
             "value" : "USB-C 输入电压"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "USB-C 輸入電壓"
+          }
         }
       }
     },
@@ -420,6 +666,12 @@
       "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率"
@@ -435,6 +687,12 @@
             "state" : "translated",
             "value" : "无线"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線"
+          }
         }
       }
     },
@@ -444,6 +702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线充电线圈"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線充電線圈"
           }
         }
       }
@@ -455,6 +719,12 @@
             "state" : "translated",
             "value" : "无线输入电流"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線輸入電流"
+          }
         }
       }
     },
@@ -464,6 +734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无线输入电压"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無線輸入電壓"
           }
         }
       }
@@ -475,6 +751,12 @@
             "state" : "translated",
             "value" : "充电功率"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電功率"
+          }
         }
       }
     },
@@ -484,6 +766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "SoC 温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC 溫度"
           }
         }
       }
@@ -495,6 +783,12 @@
             "state" : "translated",
             "value" : "电池温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電池溫度"
+          }
         }
       }
     },
@@ -505,12 +799,24 @@
             "state" : "translated",
             "value" : "最高部件温度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高元件溫度"
+          }
         }
       }
     },
     "Power" : {
       "localizations" : {
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "功率"
@@ -525,6 +831,12 @@
             "state" : "translated",
             "value" : "SoC"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SoC"
+          }
         }
       }
     },
@@ -534,6 +846,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最高温度"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高溫度"
           }
         }
       }
@@ -545,6 +863,12 @@
             "state" : "translated",
             "value" : "结束"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束"
+          }
         }
       }
     },
@@ -554,6 +878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束实时活动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束即時動態"
           }
         }
       }

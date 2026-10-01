@@ -6,7 +6,7 @@
 CI runs this on every `v*` tag and publishes the result as an asset of the release,
 next to the ipa. That gives the source an address that never changes —
 
-    https://github.com/ResistanceTo/MiniWatts/releases/latest/download/apps.json
+    https://github.com/lp250isme/MiniWatts/releases/latest/download/apps.json
 
 — because `releases/latest` follows the newest release that is not a pre-release. A
 beta tag therefore never reaches people who added the source, and nothing has to be
@@ -25,29 +25,27 @@ import plistlib
 import sys
 import zipfile
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "ResistanceTo/MiniWatts")
+REPO = os.environ.get("GITHUB_REPOSITORY", "lp250isme/MiniWatts")
 BUNDLE_ID = "org.zhaohe.MiniWatts"
 # Images come from master, not from the tag: they are presentation, and a release tagged
 # before an image existed would otherwise point at a file that is not there.
 RAW = f"https://raw.githubusercontent.com/{REPO}/master"
 SCREENSHOT_SIZE = (1260, 2736)
 
-DESCRIPTION = """\
-MiniWatts reads the iPhone's own power management sensors and shows what is actually \
-flowing: charger input in watts, what reaches the battery, rail voltages and currents, \
-every temperature sensor placed on a map of the phone, the USB-PD profiles the charger \
-offers, and a history of each charge.
+DESCRIPTION = f"""\
+MiniWatts 讀取 iPhone 自己的電源管理感測器，顯示實際在流動的電力：充電器輸入瓦數、\
+進到電池的功率、各路電壓與電流、手機上的溫度感測器、充電器提供的 USB-PD 規格，\
+以及每一次充電的紀錄。
 
-It reads private system frameworks, so it is sideload-only and can never be on the App \
-Store. It was built and verified on an iPhone Air; sensor names and scaling differ \
-between models, so some readings may be wrong on yours.
+這是 ResistanceTo/MiniWatts 的正體中文（zh-Hant）分支，授權 Apache 2.0。\
+上游著作權屬 ZhaoHe Studio。它使用私有系統框架，只能自行簽名安裝，無法上架 App Store。\
+在 iPhone Air 上開發與驗證；感測器名稱與換算因機型而異，其他機型的讀數可能不準。
 
-Includes a Home Screen and Lock Screen widget, a charging Live Activity and a floating \
-Picture in Picture meter. The widget and the Live Activity live in an app extension: \
-signing it takes one more App ID, and LiveContainer cannot run extensions, so installed \
-there MiniWatts has neither.
+包含主畫面與鎖定畫面小工具、充電時的即時動態，以及浮動讀數（子母畫面）。\
+小工具與即時動態在 App Extension 裡：簽名時會多佔一個 App ID。\
+LiveContainer 不能執行 Extension，裝在裡面就沒有小工具與即時動態。
 
-Free and open source: https://github.com/ResistanceTo/MiniWatts"""
+免費開源：https://github.com/{REPO}"""
 
 
 def fail(message):
@@ -97,8 +95,8 @@ def main():
         # identify a source by it. Harmless where it is ignored.
         "identifier": f"{BUNDLE_ID}.source",
         "sourceURL": f"https://github.com/{REPO}/releases/latest/download/apps.json",
-        "subtitle": "Live charge power, battery and thermal sensors.",
-        "description": "The MiniWatts app, straight from its GitHub releases.",
+        "subtitle": "即時充電功率、電池與溫度感測器。",
+        "description": "MiniWatts 正體中文版，從 GitHub Releases 安裝。",
         "iconURL": f"{RAW}/docs/icon.png",
         "website": f"https://github.com/{REPO}",
         "tintColor": "#0086B3",
@@ -107,8 +105,8 @@ def main():
         "apps": [{
             "name": "MiniWatts",
             "bundleIdentifier": BUNDLE_ID,
-            "developerName": "ResistanceTo",
-            "subtitle": "Live charge power, battery and thermal sensors.",
+            "developerName": "lp250isme",
+            "subtitle": "即時充電功率、電池與溫度感測器。",
             "localizedDescription": DESCRIPTION,
             "iconURL": f"{RAW}/docs/icon.png",
             "tintColor": "#0086B3",
@@ -122,7 +120,7 @@ def main():
                 "version": version,
                 "buildVersion": info["CFBundleVersion"],
                 "date": date,
-                "localizedDescription": f"Release notes: {release}",
+                "localizedDescription": f"更新說明：{release}",
                 "downloadURL": f"https://github.com/{REPO}/releases/download/{tag}/{os.path.basename(ipa)}",
                 "size": os.path.getsize(ipa),
                 "minOSVersion": info.get("MinimumOSVersion", "17.0"),
