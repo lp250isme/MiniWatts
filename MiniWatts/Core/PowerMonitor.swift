@@ -90,6 +90,14 @@ final class PowerMonitor {
         didSet { UserDefaults.standard.set(configuredBatteryWattHours, forKey: Self.wattHoursKey) }
     }
 
+    /// The stepper moved. Until then the value is re-read from `BatteryEnergy`
+    /// on each launch, so a corrected rating still reaches people who never
+    /// touched it. The old default of 15 Wh was written on first launch and is
+    /// not treated as a choice.
+    func noteBatteryWattHoursChosen() {
+        UserDefaults.standard.set(true, forKey: Self.wattHoursChosenKey)
+    }
+
     var sensorsAvailable: Bool { sensorServiceCount > 0 }
     var deviceModelIdentifier: String { Self.machineIdentifier }
 
@@ -97,6 +105,8 @@ final class PowerMonitor {
 
     private static let nominalCellVoltage = 3.87
     private static let wattHoursKey = "batteryWattHours"
+    private static let wattHoursChosenKey = "batteryWattHoursChosen"
+    private static let wattHoursPresetAppliedKey = "batteryWattHoursPresetApplied"
     private static let keepAwakeKey = "keepScreenAwakeWhileCharging"
     private static let liveActivityKey = "showsLiveActivityWhileCharging"
     private static let liveActivityMetricKey = "liveActivityMetric"
@@ -128,7 +138,17 @@ final class PowerMonitor {
     init() {
         let defaults = UserDefaults.standard
         let stored = defaults.double(forKey: Self.wattHoursKey)
-        configuredBatteryWattHours = stored > 0 ? stored : 15.0
+        let chosen = defaults.bool(forKey: Self.wattHoursChosenKey)
+        let presetApplied = defaults.bool(forKey: Self.wattHoursPresetAppliedKey)
+        if chosen, stored > 0 {
+            configuredBatteryWattHours = stored
+        } else if !presetApplied, stored > 0, stored != 15 {
+            configuredBatteryWattHours = stored
+            defaults.set(true, forKey: Self.wattHoursChosenKey)
+        } else {
+            configuredBatteryWattHours = BatteryEnergy.wattHours(forModelIdentifier: Self.machineIdentifier) ?? 15
+            defaults.set(true, forKey: Self.wattHoursPresetAppliedKey)
+        }
         // Defaults to on: recording a whole charge is the point of the History tab,
         // and it cannot happen if the screen locks after thirty seconds.
         keepScreenAwakeWhileCharging = defaults.object(forKey: Self.keepAwakeKey) as? Bool ?? true

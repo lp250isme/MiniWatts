@@ -339,6 +339,7 @@ struct RectangularBatteryView: View {
                     Image(systemName: reading.symbolName)
                     Text(reading.statusTitle)
                         .lineLimit(1)
+                        .minimumScaleFactor(0.7)
                 }
                 .font(.headline)
                 .widgetAccentable()

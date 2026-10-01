@@ -2770,13 +2770,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已连接电源，未充电"
+            "value" : "已接电，未充电"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已連線電源，未充電"
+            "value" : "已接電，未充電"
           }
         }
       }
@@ -3497,22 +3497,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "USB-C 輸入電壓"
-          }
-        }
-      }
-    },
-    "Used only for the %-rate estimate, which is the sole way to see discharge power: no discharge-current sensor is exposed to a sandboxed app. Look up your model's rating — an iPhone 17 Pro Max is about 19.7 Wh — and enter it here." : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "仅用于百分比变化率估算，这也是查看放电功率的唯一方式：沙盒应用无法访问任何放电电流传感器。请查询您机型的额定能量（例如 iPhone 17 Pro Max 约为 19.7 Wh）并在此输入。"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "僅用於百分比變化率估算，這也是檢視放電功率的唯一方式：沙盒 App 無法存取任何放電電流感測器。請查你機型的額定能量（例如 iPhone 17 Pro Max 約為 19.7 Wh）並在此輸入。"
           }
         }
       }
@@ -4297,6 +4281,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "結束即時動態"
+          }
+        }
+      }
+    },
+    "Used only for the %-rate estimate, which is the sole way to see discharge power: no discharge-current sensor is exposed to a sandboxed app. This starts from the published rating for this model, or 15 Wh when that rating is not known. eSIM-only and physical-SIM versions can differ, so change it if you know yours." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅用于百分比变化率估算，这也是查看放电功率的唯一方式：沙盒 App 读不到放电电流。这个数字先用这台手机公开的额定能量，查不到就用 15 Wh。仅 eSIM 版和带实体 SIM 卡的版本容量可能不同，知道实际数字就改掉。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只用在百分比變化率的估算上，這也是看放電功率的唯一辦法：沙盒 App 讀不到放電電流。這個數字先用這支手機公開的額定能量，查不到就用 15 Wh。eSIM 版和實體 SIM 卡版的容量可能不一樣，知道實際數字就改掉。"
           }
         }
       }

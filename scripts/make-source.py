@@ -30,7 +30,7 @@ BUNDLE_ID = "org.zhaohe.MiniWatts"
 # Images come from master, not from the tag: they are presentation, and a release tagged
 # before an image existed would otherwise point at a file that is not there.
 RAW = f"https://raw.githubusercontent.com/{REPO}/master"
-SCREENSHOT_SIZE = (1260, 2736)
+SCREENSHOT_SIZE = (1320, 2868)
 
 DESCRIPTION = f"""\
 MiniWatts 讀取 iPhone 自己的電源管理感測器，顯示實際在流動的電力：充電器輸入瓦數、\

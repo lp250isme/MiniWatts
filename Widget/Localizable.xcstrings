@@ -489,13 +489,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已暂停 — 打开 MiniWatts 以继续"
+            "value" : "已暂停，打开 App"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已暫停 — 開啟 MiniWatts 以繼續"
+            "value" : "已暫停，開啟 App"
           }
         }
       }
@@ -505,13 +505,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已连接电源，未充电"
+            "value" : "已接电，未充电"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已連線電源，未充電"
+            "value" : "已接電，未充電"
           }
         }
       }

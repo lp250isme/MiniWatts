@@ -29,16 +29,25 @@ nonisolated enum Formatting {
         String(format: "%.\(decimals)f %%", value)
     }
 
-    /// "1h 04m", "4m 12s", "38s"
+    /// Follows the locale: "1h 4m" in English, "1時4分" in 正體中文.
+    /// Abbreviated stays short enough for a chart axis.
     static func duration(_ seconds: TimeInterval) -> String {
         guard seconds.isFinite, seconds >= 0 else { return "—" }
         let total = Int(seconds.rounded())
-        let hours = total / 3600
-        let minutes = (total % 3600) / 60
-        let secs = total % 60
-        if hours > 0 { return String(format: "%dh %02dm", hours, minutes) }
-        if minutes > 0 { return String(format: "%dm %02ds", minutes, secs) }
-        return "\(secs)s"
+        let formatter = DateComponentsFormatter()
+        formatter.unitsStyle = .abbreviated
+        formatter.zeroFormattingBehavior = .dropAll
+        if total >= 3_600 {
+            formatter.allowedUnits = [.hour, .minute]
+        } else if total >= 60 {
+            formatter.allowedUnits = [.minute, .second]
+        } else {
+            formatter.allowedUnits = [.second]
+        }
+        var calendar = Calendar.current
+        calendar.locale = .current
+        formatter.calendar = calendar
+        return formatter.string(from: TimeInterval(total)) ?? "—"
     }
 
     static func minutesRemaining(_ minutes: Int) -> String {

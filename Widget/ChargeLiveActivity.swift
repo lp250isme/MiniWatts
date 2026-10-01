@@ -29,6 +29,7 @@ struct ChargeLiveActivity: Widget {
                         .font(.system(size: 12, weight: .medium, design: .rounded))
                         .foregroundStyle(palette.muted)
                         .lineLimit(1)
+                        .minimumScaleFactor(0.65)
                 }
                 DynamicIslandExpandedRegion(.center) {
                     PrimaryMetricView(state: state,
@@ -229,7 +230,7 @@ struct ActivityFootnote: View {
         .font(.system(size: 12, weight: .medium))
         .foregroundStyle(palette.muted)
         .lineLimit(1)
-        .minimumScaleFactor(0.8)
+        .minimumScaleFactor(0.6)
     }
 }
 

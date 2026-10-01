@@ -7,19 +7,27 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var liveActivity = ChargeActivityController()
     @State private var widgets = WidgetPublisher()
+    /// `-MiniWattsTab N` opens that tab. Used to shoot the localized screenshots;
+    /// absent in normal launches, so the first tab stays selected.
+    @State private var tab = Self.screenshotTab
 
     var body: some View {
-        TabView {
+        TabView(selection: $tab) {
             TabPage { DashboardView() }
                 .tabItem { Label("Power", systemImage: "bolt.fill") }
+                .tag(0)
             TabPage { ThermalView() }
                 .tabItem { Label("Thermal", systemImage: "thermometer.medium") }
+                .tag(1)
             TabPage { AdapterView() }
                 .tabItem { Label("Adapter", systemImage: "powerplug.fill") }
+                .tag(2)
             TabPage { DevicesView() }
                 .tabItem { Label("Devices", systemImage: "square.stack.3d.up.fill") }
+                .tag(3)
             TabPage { SessionsView() }
                 .tabItem { Label("History", systemImage: "chart.xyaxis.line") }
+                .tag(4)
         }
         .tint(.mwAccent)
         .background { ScreenAwakeHolder() }
@@ -86,6 +94,17 @@ struct RootView: View {
 /// The switch has to live inside the tab. Deciding it in `RootView` from the
 /// selection does not work: a tab that is not showing never receives its parent's
 /// update, so it kept the page it had and went on updating it.
+extension RootView {
+    /// Reads `-MiniWattsTab <index>` once, at init. `0` when the argument is absent.
+    fileprivate static var screenshotTab: Int {
+        let args = ProcessInfo.processInfo.arguments
+        guard let flag = args.firstIndex(of: "-MiniWattsTab"),
+              flag + 1 < args.count,
+              let index = Int(args[flag + 1]) else { return 0 }
+        return index
+    }
+}
+
 private struct TabPage<Content: View>: View {
     @ViewBuilder let content: () -> Content
     @State private var isOnScreen = true

@@ -20,7 +20,13 @@ struct SettingsView: View {
                                       showTemperatures: $floatingMeter.showTemperatures,
                                       layout: $floatingMeter.layout,
                                       temperatureSelection: $floatingMeter.temperatureSelection)
-                        capacityPanel(capacity: $monitor.configuredBatteryWattHours)
+                        capacityPanel(capacity: Binding(
+                            get: { monitor.configuredBatteryWattHours },
+                            set: {
+                                monitor.configuredBatteryWattHours = $0
+                                monitor.noteBatteryWattHoursChosen()
+                            }
+                        ))
                         devicePanel
                         aboutPanel
                         rawDataLink
@@ -226,7 +232,7 @@ struct SettingsView: View {
                     Stepper("", value: capacity, in: 5...40, step: 0.1)
                         .labelsHidden()
                 }
-                Text("Used only for the %-rate estimate, which is the sole way to see discharge power: no discharge-current sensor is exposed to a sandboxed app. Look up your model's rating — an iPhone 17 Pro Max is about 19.7 Wh — and enter it here.")
+                Text("Used only for the %-rate estimate, which is the sole way to see discharge power: no discharge-current sensor is exposed to a sandboxed app. This starts from the published rating for this model, or 15 Wh when that rating is not known. eSIM-only and physical-SIM versions can differ, so change it if you know yours.")
                     .font(.caption)
                     .foregroundStyle(Color.mwMuted)
                     .fixedSize(horizontal: false, vertical: true)
