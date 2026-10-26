@@ -31,14 +31,7 @@ struct SettingsView: View {
                         aboutPanel
                         rawDataLink
                     }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 24)
-                    // Pinned to the container's width so nothing inside can widen the
-                    // scroll content. A paragraph inside an HStack reports an enormous
-                    // ideal width — the text unwrapped onto one line — and
-                    // `.frame(maxWidth: .infinity)` only expands, it does not clamp, so
-                    // that width propagates up and the page starts scrolling sideways.
-                    .containerRelativeFrame(.horizontal)
+                    .pageColumn()
                 }
             }
             .navigationTitle("Settings")

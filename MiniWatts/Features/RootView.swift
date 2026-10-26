@@ -184,15 +184,8 @@ struct PageScaffold<Content: View>: View {
                     LazyVStack(spacing: 14) {
                         PageContent(content: content)
                     }
-                    .padding(.horizontal, 16)
                     .padding(.top, 4)
-                    .padding(.bottom, 24)
-                    // Pinned to the container's width so nothing inside can widen the
-                    // scroll content. A paragraph inside an HStack reports an enormous
-                    // ideal width — the text unwrapped onto one line — and
-                    // `.frame(maxWidth: .infinity)` only expands, it does not clamp, so
-                    // that width propagates up and the page starts scrolling sideways.
-                    .containerRelativeFrame(.horizontal)
+                    .pageColumn()
                 }
             }
             .navigationTitle(title)
@@ -204,6 +197,38 @@ struct PageScaffold<Content: View>: View {
             }
         }
     }
+}
+
+extension View {
+    /// The column every scrolling page lays its panels out in.
+    ///
+    /// Panels are drawn for a phone's width: a dial, a heat map and rows of three
+    /// readouts. Given the whole width of a large display — an unfolded phone, or a
+    /// landscape window — they stretch into long thin strips with the readouts at
+    /// the far edges, so the column stops growing at `readableWidth` and centres in
+    /// whatever is left. That is a question about the space on offer, not about the
+    /// device: on a narrow screen it changes nothing, and it holds the same in a
+    /// half-width split. The backdrop behind still runs edge to edge, and the
+    /// scroll view keeps every edge's safe area separately, so a bar standing on
+    /// one side only pushes the column away from that side.
+    func pageColumn() -> some View {
+        padding(.horizontal, 16)
+            .padding(.bottom, 24)
+            .frame(maxWidth: PageMetrics.readableWidth)
+            // Pinned to the container's width so nothing inside can widen the
+            // scroll content. A paragraph inside an HStack reports an enormous
+            // ideal width — the text unwrapped onto one line — and
+            // `.frame(maxWidth: .infinity)` only expands, it does not clamp, so
+            // that width propagates up and the page starts scrolling sideways.
+            // The cap above does clamp, and this centres the clamped column.
+            .containerRelativeFrame(.horizontal)
+    }
+}
+
+enum PageMetrics {
+    /// Widest a page's column grows, gutters included. A phone in portrait is
+    /// narrower than this and never reaches it.
+    static let readableWidth: CGFloat = 640
 }
 
 /// Calls a page's content closure, so that the monitor reads inside it are this
