@@ -50,7 +50,13 @@ struct DebugView: View {
                     UIPasteboard.general.string = fullDump()
                     copied = true
                 } label: {
-                    Image(systemName: copied ? "checkmark" : "doc.on.doc")
+                    // Two literals rather than one ternary: a ternary of literals
+                    // types as `String`, and `Label(String, …)` does not localise.
+                    if copied {
+                        Label("Copied", systemImage: "checkmark")
+                    } else {
+                        Label("Copy all", systemImage: "doc.on.doc")
+                    }
                 }
                 .tint(.mwAccent)
             }

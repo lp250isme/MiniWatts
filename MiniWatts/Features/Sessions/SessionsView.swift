@@ -15,7 +15,7 @@ struct SessionsView: View {
     @State private var confirmingDelete = false
 
     var body: some View {
-        PageScaffold("History", glow: .mwBattery, toolbar: AnyView(toolbar)) {
+        PageScaffold("History", glow: .mwBattery, toolbar: toolbar) {
             if let session = monitor.currentSession {
                 currentPanel(session)
             }
@@ -45,7 +45,7 @@ struct SessionsView: View {
     }
 
     private var toolbar: some View {
-        Button { confirmingDelete = true } label: { Image(systemName: "trash") }
+        Button { confirmingDelete = true } label: { Label("Delete all", systemImage: "trash") }
             .tint(.mwDanger)
             .disabled(monitor.sessions.isEmpty)
     }
@@ -170,7 +170,7 @@ struct SessionDetailView: View {
                     monitor.deleteSession(session)
                     dismiss()
                 } label: {
-                    Image(systemName: "trash")
+                    Label("Delete", systemImage: "trash")
                 }
                 .tint(.mwDanger)
             }

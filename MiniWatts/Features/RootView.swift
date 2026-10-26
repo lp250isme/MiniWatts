@@ -12,6 +12,11 @@ struct RootView: View {
     @State private var tab = Self.screenshotTab
 
     var body: some View {
+        // The plain tab style on purpose, not `.sidebarAdaptable`. Five peer
+        // instruments with nothing nested under them gain nothing from a sidebar,
+        // and on a wide display it would take the width the panels are given. The
+        // system tab bar already moves to a side-mounted vertical bar where the
+        // display is short and wide, and back along the bottom where it is not.
         TabView(selection: $tab) {
             TabPage { DashboardView() }
                 .tabItem { Label("Power", systemImage: "bolt.fill") }
@@ -156,15 +161,19 @@ private struct ScreenAwakeHolder: View {
 /// the title, the toolbar and the scroll view. Now only `PageContent` and
 /// `PageBackdrop` re-run, and the chrome stays as it is. For the same reason a
 /// page must not read the monitor in its own body outside these closures.
-struct PageScaffold<Content: View>: View {
+///
+/// The toolbar item is kept as its concrete type, not erased: the system decides
+/// whether a bar item can stand on a side-mounted, vertical bar by looking at what
+/// it is — a button with a symbol can, a custom view by default cannot.
+struct PageScaffold<Content: View, Trailing: View>: View {
     let title: LocalizedStringResource
     var glow: () -> Color
-    var toolbar: AnyView?
+    var toolbar: Trailing?
     @ViewBuilder var content: () -> Content
 
     init(_ title: LocalizedStringResource,
          glow: @autoclosure @escaping () -> Color = .mwAccent,
-         toolbar: AnyView? = nil,
+         toolbar: Trailing,
          @ViewBuilder content: @escaping () -> Content) {
         self.title = title
         self.glow = glow
@@ -229,6 +238,17 @@ enum PageMetrics {
     /// Widest a page's column grows, gutters included. A phone in portrait is
     /// narrower than this and never reaches it.
     static let readableWidth: CGFloat = 640
+}
+
+extension PageScaffold where Trailing == EmptyView {
+    init(_ title: LocalizedStringResource,
+         glow: @autoclosure @escaping () -> Color = .mwAccent,
+         @ViewBuilder content: @escaping () -> Content) {
+        self.title = title
+        self.glow = glow
+        self.toolbar = nil
+        self.content = content
+    }
 }
 
 /// Calls a page's content closure, so that the monitor reads inside it are this

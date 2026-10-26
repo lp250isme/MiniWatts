@@ -8,7 +8,7 @@ struct DashboardView: View {
     private var plugged: Bool { snapshot.externalConnected }
 
     var body: some View {
-        PageScaffold("MiniWatts", glow: glowColor, toolbar: AnyView(toolbarButtons)) {
+        PageScaffold("MiniWatts", glow: glowColor, toolbar: toolbarButtons) {
             heroPanel
             if monitor.thermal.state.isThrottling { throttleBanner }
             batteryPanel
@@ -27,7 +27,7 @@ struct DashboardView: View {
     }
 
     private var toolbarButtons: some View {
-        Button { showingSettings = true } label: { Image(systemName: "gearshape") }
+        Button { showingSettings = true } label: { Label("Settings", systemImage: "gearshape") }
             .tint(.mwAccent)
     }
 

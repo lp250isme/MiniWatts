@@ -37,8 +37,14 @@ struct SettingsView: View {
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button("Done") { dismiss() }.tint(.mwAccent)
+                // A symbol as well as a title: on a short, wide display the sheet's
+                // bar stands on its side, and only items with a symbol can go there —
+                // a text-only "Done" would keep a whole horizontal bar for itself.
+                // Confirmation, not cancellation: every setting here applies as it
+                // is changed, so this only closes the sheet.
+                ToolbarItem(placement: .confirmationAction) {
+                    Button { dismiss() } label: { Label("Done", systemImage: "checkmark") }
+                        .tint(.mwAccent)
                 }
             }
         }
